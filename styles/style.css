@@ -1,0 +1,48 @@
+.header {
+    background-color: darkgrey;
+    height: 70px;
+    text-align: center;
+
+}
+
+.main {
+    display: flex;
+    height: 200px;
+}
+
+.section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: lemonchiffon;
+    width: 70%;
+    align-items: flex-end;
+}
+
+.main_div {
+    width: 350px;
+    height: 50px;
+    background-color: rgb(251, 251, 135);
+    text-align: center;
+}
+
+.aside {
+    background-color: aquamarine;
+    width: 30%;
+    text-align: center;
+}
+
+.footer {
+    display: flex;
+    background-color: darkgrey;
+    justify-content: space-around;
+    align-items: center;
+    height: 70px;
+}
+
+.footer_menu {
+    width: 110px;
+    height: 50px;
+    background-color: lightgrey;
+    text-align: center;
+}
